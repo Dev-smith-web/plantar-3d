@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   title: 'Plantar',
   description: 'Learn about plants interactively with 3D models and AI',
   manifest: '/manifest.json',
+  icons: {
+    icon: '/favicon.png',
+    apple: '/favicon.png',
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
